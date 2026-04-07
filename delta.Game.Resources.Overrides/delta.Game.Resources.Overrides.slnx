@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<PackageId>Delta.Game.Resources.Overrides</PackageId>
-		<Version>1.0.0-alpha</Version>
+		<Version>0.0.1</Version>
 		<Authors>deltalazer</Authors>
 		<Company>deltalazer</Company>
 		<Description>Resource overrides for the Deltalazer project (Soft Launch - Alpha)</Description>
