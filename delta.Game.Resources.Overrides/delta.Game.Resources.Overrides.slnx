@@ -1,6 +1,18 @@
-<Solution>
-  <Folder Name="/Solution Items/">
-    <File Path="README.md" />
-  </Folder>
-  <Project Path="delta.Game.Resources.Overrides.csproj" />
-</Solution>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackageId>Delta.Game.Resources.Overrides</PackageId>
+		<Version>1.0.0-alpha</Version>
+		<Authors>deltalazer</Authors>
+		<Company>deltalazer</Company>
+		<Description>Resource overrides for the Deltalazer project (Soft Launch - Alpha)</Description>
+		<RepositoryUrl>https://github.com/deltalazer/delta-resources</RepositoryUrl>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Textures\**\*" />
+	</ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="\" />
+</Project>
