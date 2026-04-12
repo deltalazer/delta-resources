@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	 <Version>2026.04.10-A</Version>
+	  <!-- If you plan on building for release (on ANY of the branches), Please also change the version number for the root directory's slnx file! -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Menu\logo.png" />
+    <EmbeddedResource Include="Textures\Intro\Triangles\logo-highlight.png" />
+    <EmbeddedResource Include="Textures\Intro\Triangles\logo-background.png" />
+    <EmbeddedResource Include="Textures\Icons\Logo.png" />
+    
+  </ItemGroup>
+</Project>

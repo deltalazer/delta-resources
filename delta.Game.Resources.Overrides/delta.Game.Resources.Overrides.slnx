@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<PackageId>Delta.Game.Resources.Overrides</PackageId>
+	<Version>2026.04.10-A</Version> <!-- Please note: You should also change the version number for the `delta.Game.Resources.Overrides` class too!-->
+	<Authors>deltalazer</Authors>
+	<Company>deltalazer</Company>
+	<Description>Resource overrides for the Deltalazer project (Soft Launch - Alpha)</Description>
+	<RepositoryUrl>https://github.com/deltalazer/delta-resources</RepositoryUrl>
+	<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+	<Deterministic>true</Deterministic>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+</PropertyGroup>
+
+<ItemGroup>
+	<EmbeddedResource Include="Textures\**\*" />
+</ItemGroup>
+
+<ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="\" />
+	<None Include="Delta-Assets\**\*" />
+</ItemGroup>
+</Project>
